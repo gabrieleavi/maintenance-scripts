@@ -13,7 +13,7 @@ read -r -p "Vuoi procedere con la manutenzione? [S/n] " response
 	 echo "============================="
 	 echo "Aggiornamento completato con successo!"
 	 echo "Inizio manutenzione..."
-	 sudo paccache -ruk-1
+	 sudo paccache -ruk0
 	 # To clear old packages cache
 	 echo "============================="
 	 echo "Cache pacchetti disinstallati pulita!"
