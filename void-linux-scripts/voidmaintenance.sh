@@ -11,7 +11,7 @@ read -r -p "Would you like to continue? [Y/n] " response
 if [[ "$response" =~ ^([Yy])$ ]] || [[ -z $response ]]; then
     sudo xbps-install -u xbps
     sudo xbps-install -Su
-    sudo bleachbit
+    bleachbit
     echo "Task ended successfully!"
     echo "Rebooting in 3..."
     sleep 1

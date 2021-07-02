@@ -28,10 +28,10 @@ read -r -p "Vuoi procedere con la manutenzione? [S/n] " response
 	 echo "============================="
 	 echo "Pulizia pacchetti orfani completata con successo!"
 	 echo "Avvio di stacer in corso..."
-	 sudo stacer
+	 stacer
 	 # To clean the system
 	 echo "Avvio di bleachbit in corso..."
-	 sudo bleachbit
+	 bleachbit
 	 clear
 	 echo "Riavvio del computer in corso..."
 	 reboot
